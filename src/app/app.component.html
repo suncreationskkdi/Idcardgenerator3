@@ -1,0 +1,41 @@
+<h1 style="text-align: center;color: darkmagenta;">ID-CARD GENERATOR</h1>
+<div class="container">
+  <form action="">
+    <label for="fname">Full Name</label>
+    <input type="text" name="fname" id="fname" [(ngModel)]="fname">
+    <br>
+    <label for="fathername">Father Name</label>
+    <input type="text" name="fathername" id="fathername" [(ngModel)]="fathername">
+    <br>
+    <label for="city">City</label>
+    <input type="text" name="city" id="city" [(ngModel)]="city">
+    <br>
+    <label for="age">Age</label>
+    <input type="text" name="age" id="age" [(ngModel)]="age">
+    <br>
+    <label for="img">Img Url</label>
+    <input type="url" name="img" id="img" [(ngModel)]="img">
+  </form>
+</div>
+<div class="container1">
+  <pre style="font-size: 20px;color: red;">                     ID-CARD</pre>
+  <label for="fname2">First Name</label>
+  <input type="text" name="fname2" id="fname2" [(ngModel)]="fname">
+  <br>
+
+  <label for="fathername2">Father Name</label>
+  <input type="text" name="fathername2" id="fathername2" [(ngModel)]="fathername">
+  <br>
+
+  <label for="city2">City</label>
+  <input type="text" name="city2" id="city2" [(ngModel)]="city">
+  <br>
+
+  <label for="age2">age</label>
+  <input type="text" name="age2" id="age2" [(ngModel)]="age">
+  <br><br>
+
+  <label for="img2">Image</label>
+  <img *ngIf="img" [src]="img"  alt="Preview" width="200" height="auto" style="border: 1px solid black;" [(ngModel)]="img"><br>
+  <button (click)="onSubmit()" class="centerImage">Submit</button>
+</div>

@@ -1,0 +1,29 @@
+label{
+    margin: 0.2%;
+    width: 320px;
+    display: inline-block;
+    color: rgb(240, 24, 248);
+    font-size: 18px;
+
+}
+.container{
+    max-width: 600px;
+            margin: 50px auto;
+            background-color: rgba(29, 215, 190, 0.8); /* Semi-transparent background for the form */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 5px 10px 15px 20px gray;
+}
+.container1{
+    max-width: 600px;
+            margin: 50px auto;
+            background-color: rgba(24, 239, 13, 0.8); /* Semi-transparent background for the form */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 5px 10px 15px 20px gray;
+}
+.centerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
